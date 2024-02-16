@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #1a1151;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease; 
+}
+
+.navbar b {
+  color: #fff;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.navbar a {
+  background-color: hsla(0, 0%, 100%, 0.2);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.navbar.scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
